@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMK Harapan Ibu</title>
+    <!---------- Fonts ------------>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <!---------- Icon ------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <!---------- Css ------------>
+    <link rel="stylesheet" href="index.css" />
+    <!---------- Icon Web ------------>
+    <link rel="icon" href="images/Logo.png" />
+    <!---------- Script ------------>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!---------- My Navbar ----------->
+    <section class="sub-header">
+      <nav>
+        <img src="images/Logo1.png" alt="" />
+        <div class="nav-links" id="navlinks">
+          <a href="#" class="nav-fa" onclick="hidemenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#00000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" /></svg>
+          </a>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="about.html">Tentang</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Kontak</a></li>
+          </ul>
+        </div>
+        <a href="#" class="nav-fa" onclick="showmenu()"
+          ><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" /></svg>
+        </a>
+      </nav>
+      <h1>Kontak kami</h1>
+    </section>
+    <!---------- Contact----------->
+
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253885.70556781528!2d106.67708468015446!3d-6.135519358352378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f58ab1132fd5%3A0x2623f5a6c83f3b27!2sJakarta%20Utara%2C%20Jkt%20Utara%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1719147863815!5m2!1sid!2sid"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <section class="contact-we">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fas fa-home"></i>
+            <span>
+              <h5>Alamat</h5>
+              <p>Jl. Kebon Jeruk Raya No.27, RT.1/RW.2, Duri Kepa, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11510</p>
+            </span>
+          </div>
+          <div>
+            <i class="fas fa-phone"></i>
+            <span>
+              <h5>0828292020</h5>
+              <p>Phone</p>
+            </span>
+          </div>
+          <div>
+            <i class="fas fa-envelope"></i>
+            <span>
+              <h5>smkharibu@gmail.com</h5>
+              <p>Email</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="contact-col">
+          <form action="">
+            <input type="text" placeholder="Masukan Nama" required />
+            <input type="email" placeholder="Masukan Email" required />
+            <input type="text" placeholder="Masukan Subjek" required />
+            <textarea rows="8" placeholder="Pesan" required></textarea>
+            <button type="submit" class="hero-btn">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!---------- Footer ----------->
+    <!---------- Footer ------------>
+    <section class="footer">
+      <h4>Tentang kami</h4>
+      <p>SMK Harapan Ibu adalah lembaga pendidikan yang berkomitmen untuk menghasilkan lulusan berdaya saing. <br> Dengan pendekatan inovatif dan berbasis karakter, kami mempersiapkan peserta didik untuk sukses di dunia kerja dan kehidupan.
+      </p>
+      <div class="icon">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p>Copyright &copy; 2024 - SMK HARAPAN IBU</p>
+    </section>
+    <!---------- Footer End------------>
+
+  </body>
+</html>
